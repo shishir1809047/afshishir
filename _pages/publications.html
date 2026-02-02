@@ -1,36 +1,39 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+---
+<!-- You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?user=-TO5ICoAAAAJ&hl=en) profile -->
+---
+### PriBan: A Benchmark Dataset and Modeling Framework for Privacy Preservation in Bengali Texts
+**Anowarul Faruk Shishir**, Bishaw Kirti Chakma, Indrajit Gupta  
+ 28th International Conference on Computer and Information Technology (ICCIT), 2025   
+
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+### Advancing Ophthalmology through Transfer Learning and Channel-Wise Attention for Retinal Disease Classification
+**Sudipta Progga Islam**, Ashraf UI Alam  
+2024 6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT) **[Paper](https://doi.org/10.1109/ICEEICT62016.2024.10534342)**  
+IEEE  
 
-{% include base_path %}
+---
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+### A Deep CNN-Based Approach for Revolutionizing Bengali Handwritten Numeral Recognition
+**Sudipta Progga Islam**, Farjana Parvin  
+2nd International Conference on Big Data, IoT and Machine Learning 2023 (BIM 2023) **[Paper](https://www.springerprofessional.de/en/a-deep-cnn-based-approach-for-revolutionizing-bengali-handwritte/26924490)**   
+Springer  
 
 
+---
 
+### BanglaOngko : A New Dataset for Accurate Bengali Mathematical Expression Detection Utilizing YOLOv8 Architecture
+Soumit Das, Ashraf UI Alam, **Sudipta Progga Islam**, Azmain Yakin Srizon  
+2nd International Conference on Big Data, IoT and Machine Learning 2023 (BIM 2023) **[Paper](#)**  **[Project](https://github.com/ashraf-ul-alam-amit/BanglaOngko)**  
+Taylor and Francis  
+
+
+---
+# Thesis
+### RAD-U-Net: Residual Attention-based Dual-path U-Net for Segmentation of Multiple Myeloma Cells in Microscopic Images for Clinical Diagnosis
+- This work was done under the supervision of Dr. Md. Nazrul Islam Mondal and Nahin Ul Sadad.
+- A portion of my undergraduate thesis was published at International Conference on Power, Electrical, Electronics and Industrial Applications (PEEIACON) 2024 **[Paper](https://ieeexplore.ieee.org/document/10800485)**     
+IEEE
